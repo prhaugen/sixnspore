@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Cap -->
+  <ellipse cx="16" cy="13" rx="14" ry="6" fill="#1a2e40"/>
+  <ellipse cx="13" cy="11.5" rx="6" ry="2.5" fill="#c3a177" opacity="0.4"/>
+  <!-- Stem -->
+  <rect x="11" y="13" width="10" height="16" rx="3" fill="#f0ece0" stroke="#1a2e40" stroke-width="1"/>
+  <!-- Stem shading -->
+  <rect x="18" y="13" width="3" height="16" rx="2" fill="#c3a177" opacity="0.3"/>
+</svg>
