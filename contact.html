@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Six & Spore | Precision Cultivated Gourmet Fungi</title>
+    <title>Contact | Six & Spore</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -68,6 +68,7 @@
         }
 
         .nav-links a:hover { color: #c3a177; }
+        .nav-links a.active { color: #c3a177; }
 
         .nav-actions {
             display: flex;
@@ -157,18 +158,37 @@
             .navbar { padding: 0 20px; }
         }
 
+        /* ── CONTENT ── */
+        .container {
+            max-width: 600px;
+            border: 1px dashed #d1c7bd;
+            padding: 40px;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        h1 { font-family: sans-serif; letter-spacing: 2px; margin-top: 20px; }
+
+        .tech-spec {
+            background-color: #f4f1ea;
+            padding: 15px;
+            border-left: 4px solid #c3a177;
+            text-align: left;
+            font-size: 0.9em;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
 
     <nav class="navbar">
-        <a href="#" class="nav-logo">SIX <span>&</span> SPORE</a>
+        <a href="index.html" class="nav-logo">SIX <span>&</span> SPORE</a>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Shop</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
 
         <div class="nav-actions">
@@ -197,10 +217,27 @@
     </nav>
 
     <div class="mobile-menu" id="mobileMenu">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#">Shop</a>
         <a href="#">About</a>
         <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <div style="font-size: 48px;">🔬🍄</div>
+        <h1>SIX & SPORE</h1>
+        <p><strong>Precision Cultivated Gourmet Fungi</strong></p>
+
+        <p>An intergenerational family tech-guild engineering the perfect indoor microclimate for premium King Oysters. Launching official harvests for the Ankeny, IA market in 2027.</p>
+
+        <div class="tech-spec">
+            [System Status: Pre-Alpha]<br>
+            - Environment: Baseline Lab Setup<br>
+            - Monitoring Engine: Python 3.x / ESP32 Array (Deploying)<br>
+            - Pipeline: GitHub &rarr; Netlify Production
+        </div>
+
+        <p><a href="mailto:engineer.haugen@gmail.com" style="color: #c3a177; font-family: sans-serif; letter-spacing: 1px;">Get in touch</a></p>
     </div>
 
     <script>
