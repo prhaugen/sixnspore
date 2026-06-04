@@ -8,11 +8,20 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        body {
+        body::before {
+            content: '';
+            position: fixed;
+            top: 65px;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background-image: url('logo-bg.png');
             background-size: cover;
-            background-position: center 80px;
-            background-attachment: fixed;
+            background-position: center;
+            z-index: -1;
+        }
+
+        body {
             color: #1a2e40;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
